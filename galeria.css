@@ -1,0 +1,19 @@
+/* bloque principal, que contiene a la imagenes */
+.galeria{
+    max-width: 400px; /*ocue su ancho maxim o*/
+    margin: 0 auto; /*para centrar en la paguina*/
+    background-color: lightgray;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* elemento galeria_imagen aplicando estilos para todas la imganes */
+.galeria__imagen{
+    width: 100%; /*ocupar ancho disponible*/
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+/* modificar la imagen --destacada */
+.galeria__imagen--destacada{
+    border: 2px solid #ff9900;
+}

@@ -1,0 +1,31 @@
+/* estilos al bloque card */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+/* se le modfica al borde a la card, bloque card */
+.product-card--featured {
+  border-color: green;
+}
+/* tamaño del elemento de la imgagen, class */
+.product-card__image {
+  width: 150px;
+}
+/* tamaño titulo del elemento, que esta dentro del bloque card */
+.product-card__title {
+  font-size: 1.2rem;
+}
+/* colo de la class, aplica para la descricion, que se encuentra del bloque */
+.product-card__description {
+  color: #666;
+}
+
+.product-card__price {
+  font-weight: bold;
+}
+
+.product-card__button {
+  background-color: blue;
+  color: white;
+}

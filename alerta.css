@@ -1,0 +1,21 @@
+/* bloque alerta estilo base para las dos alerta */
+.alerta{
+    padding: 8px;
+    margin: 8px auto;
+    max-width: 400px; /*para que ocupe un ancho*/
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+/* modificardor alerta--error */
+.alerta--error{
+    background-color: rgb(249, 32, 32);
+}
+/* modificador alerta--exito */
+.alerta--exito{
+    background-color: lime;
+}
+/* elememtno alerta__mensaje,  */
+.alerta__mensaje{
+    margin: 0;
+}

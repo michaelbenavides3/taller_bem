@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- creamo el bloque, formulario-contacto -->
+    <form class="formulario-contacto">
+        <!-- creamos primer elemento para ingresar nombre -->
+        <div class="formulario-contacto__campo">
+            <label for="nombre" class="formulario-contacto__etiqueta">Nombre: </label>
+            <!-- elemento de entrada(input) -->
+            <input class="formulario-contacto__entrada" type="text" name="nombre">
+        </div>
+        <!-- segundo elemento para ingresar correo -->
+        <div class="formulario-contacto__campo">
+            <label for="correo" class="formulario-contacto__etiqueta">Correo: </label>
+            <input type="email" class="formulario-contacto__entrada" name="correo">
+        </div>
+        <!-- tercer elemento para ingresar un mensaje -->
+        <div class="formulario-contatco__campo">
+            <label class="formulario-contacto__etiqueta" for="mensaje">Mensaje: </label>
+            <textarea class="formulario-contacto__entrada" name="mensaje" id="mensaje"></textarea>
+        </div>
+        <!-- elemento de tipo boton para enviar el formularuio -->
+        <button class="formulario-contacto__boton" type="submit">Enviar</button>
+    </form>
+</body>
+</html>

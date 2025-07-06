@@ -1,0 +1,20 @@
+/* bloque principal; lista-tareas contiene la lista general*/
+.lista-tareas{
+    list-style: none; /*quitar todas la viñetas*/
+    padding: 0;
+    max-width: 300px; /*ancho maxiomo*/
+    margin: 0 auto; /*centar el contenido*/
+}
+
+/* elemento item */
+.lista-tareas__item{
+    background-color: gray;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+/* modificador para item completado */
+.lista-tareas__item--completada{
+    text-decoration: line-through; /*se utiliza para tachar el texto*/
+    color: lime;
+}

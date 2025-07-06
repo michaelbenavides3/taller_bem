@@ -1,0 +1,27 @@
+/* Estilo base del menú */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+/* elemento lista menu */
+.nav-menu__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* items del menú */
+.nav-menu__item {
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+/* item activo */
+.nav-menu__item--active{
+  font-weight: bold;
+  border-bottom: 2px solid yellow;
+}
