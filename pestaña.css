@@ -1,0 +1,33 @@
+/* estilos al bloque prinicpal, pestañas */
+.pestanas{
+    max-width: 400px; /*ancho maximo para que se compacto*/
+    margin: 0 auto; /*centrar horizontamlmene*/
+    text-align: center; /*centrar los botones*/
+}
+
+/* elementos pestanas__boton */
+.pestanas__boton{
+    background-color: grey;
+    border: 1px solid #ccc;
+    padding: 5px 16px;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+    color: white;
+}
+
+/* estilos al modificaod */
+.pestanas__boton--activa{
+    background-color: gray;
+    color: red;
+    font-weight: bold;
+}
+
+/* estilos elemento pestanas__contenido */
+.pestanas__contenido{
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    background-color: wheat;
+    border-radius: 0 0 4px 4px;
+    color: darkblue;
+}

@@ -1,0 +1,19 @@
+/* estilos al bloque principal */
+.pie-pagina{
+    background-color: brown;
+    color: wheat;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* estilo al elemento pie-pagina__texto */
+.pie-pagina__texto{
+    margin: 0.25rem 0; /*espacio vertical pequeño*/
+    font-size: 0.9rem; /*tamaño de letra mas pequeño*/
+}
+
+/* estilos al modificador */
+.pie-pagina__texto--importante{
+    color: gold;
+    font-weight: bold; /*estilo negrita*/
+}

@@ -1,0 +1,24 @@
+/* estilos al bloque princiapl */
+.resumen-carrito{
+    width: 220px; /*ancho fijo*/
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+/* estilos al elemento */
+.resumen-carrito__item{
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+/* estilos al modificador */
+.resumen-carrito__total--destacado{
+    color: rgb(152, 3, 3);
+    font-size: 1.1rem;
+    text-align: center;
+    margin-right: 120px;
+}

@@ -1,0 +1,24 @@
+/* estilo para el blque principal, barra-lateral */
+.barra-lateral{
+    width: 200px; /*ancho fijo para la barra lateral*/
+    background-color: lightgrey;
+    padding: 16px;
+    float: left; /*se queda pegado a la izquierda*/
+    height: 100vh; /*que ocupe toda la altura de la pantalla*/
+}
+
+/* estilos para los elementis */
+.barra-lateral__item{
+    display: block; /*para que uno quede debajo del otro*/
+    padding: 8px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 3px;
+    border-radius: 4px;
+}
+
+.barra-lateral__item--activo{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+/* estilos la blqoue princiapl */
+.reproductor-video{
+    text-align: center;
+    margin: 16px auto;
+    max-width: 500px;  /*limite de ancho apra que no sea muy grande*/
+}
+
+/* estilos al elemento titulo */
+.reproductor-video__titulo{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+    margin-left: 150px;
+    text-align: center;
+}
+
+/* estilos a elemento video */
+.reproductor-video__video{
+    width: 50%; /*que se ajuste al contendeor*/
+    height: auto; /*altuta proporcioanl*/
+    border: 2px solid grey;
+    border-radius: 8px;
+    position: absolute;
+}
+
+/* estilos al modificador */
+.reproductor-video__video--destacado{
+    border-color: orangered;
+}
+
+.video_youtube{
+    position: relative;
+    padding-left: 150px;
+    padding-top: 25px;
+}

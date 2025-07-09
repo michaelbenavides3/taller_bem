@@ -1,0 +1,20 @@
+/* estilos al bloque princicpal */
+.calificacion{
+    text-align: center;
+    margin: 16px 0;
+    font-size: 50px;
+    color: beige;
+}
+
+/* estilos al elemtos  */
+.calificacion__estrella{
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+/* estilos al modificadr */
+.calificacion__estrella--activa{
+    color: gold;
+}
+

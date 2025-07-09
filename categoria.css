@@ -1,0 +1,22 @@
+/* estilos al bloque selector-categorias */
+.selector-categorias{
+    text-align: center;
+    margin: 16px 0;
+}
+
+/* estilos a elementos selector-categoria__opcion */
+.selector-categorias__opcion{
+    display: inline-block;
+    background-color: gainsboro;
+    padding: 7px 10px;
+    border-radius: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+/* estilos al modificador */
+.selector-categorias__opcion--activa{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
