@@ -18,3 +18,14 @@
     text-decoration: line-through; /*se utiliza para tachar el texto*/
     color: lime;
 }
+
+.lista-tareas__label{
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.checkbox__item{  
+  vertical-align: middle;
+  margin-right: 8px;
+}
