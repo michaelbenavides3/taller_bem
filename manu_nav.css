@@ -1,6 +1,5 @@
 /* Estilo base del menú */
 .nav-menu {
-  display: flex;
   align-items: center;
   background-color: #333;
   color: white;
