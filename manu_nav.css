@@ -22,5 +22,5 @@
 /* item activo */
 .nav-menu__item--active{
   font-weight: bold;
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid red;
 }
